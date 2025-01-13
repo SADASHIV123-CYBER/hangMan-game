@@ -6,7 +6,7 @@ import useWordStore from "../stores/WordStore";
 
 function Home() {
     
-    // const { setWord } = useContext(WordContext)
+    // const { setWord } = useContext(WordContext);
 
     const { setWordList, setWord } = useWordStore(); // coming from the store
 
